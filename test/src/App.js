@@ -80,7 +80,7 @@ class App extends Component {
               return(<Row key={s.id} row={s} onButtonClick={this.handleRowClick} />)
             })}
           </div>
-          <div class="center">Total: {this.state.total}</div>
+          <div class="center">Total: {this.state.total}tg</div>
           </div>
       </div>
     );
