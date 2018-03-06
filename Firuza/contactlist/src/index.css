@@ -1,0 +1,244 @@
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@darkerGreen: #001C00;
+@darkGreen: #003300;
+@mediumGreen: #46733E;
+@lightGreen: #EDF1BE; // #E3EAB7
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: @mediumGreen;
+}
+.app {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  border: solid 2px @darkerGreen;
+}
+.left {
+  background: @darkGreen;
+  flex: 1;
+  color: @lightGreen;
+  height: 100%;
+  overflow: hidden;
+  h2 {
+    height: 30px;
+    text-align: center;
+  }
+}
+.contacts-container {
+  height: 330px;
+  overflow: auto;
+}
+.contact {
+  border-top: solid 2px @darkerGreen;
+  background: @darkGreen;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  .image {
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+    border-radius: 50%;
+    background-position: -10px 0px;
+    background-size: cover;
+  }
+  .name {
+    margin-left: 10px;
+    min-width: 50px;
+  }
+}
+.right {
+  background: @lightGreen;
+  flex: 1;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  color: @darkGreen;
+  header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .image {
+      margin: 10px 0;
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      background-position: -10px 0;
+      background-size: cover;
+      &::before {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(255,255,255,0.5);
+        border-radius: 50%;
+        padding: 55px;
+        box-sizing: border-box;
+        content: '\f095';
+        color: @darkerGreen;
+        font-size: 50px;
+        font-family: 'FontAwesome';
+        opacity: 0;
+        transition: opacity 0.2s;
+      }
+      &:hover {
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
+    h3 {
+      margin: 0;
+      text-align: center;
+    }
+  }
+  section {
+    flex: 1;
+    padding: 15px;
+    font-size: 14px;
+    p > span:nth-child(1) {
+      text-decoration: underline;
+      display: block;
+    }
+  }
+} */
+
+
+.search {
+
+	width: 250px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+
+ }
+
+.searchButton {
+
+    /*transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);*/
+    margin-left: 5px;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.searchButton:hover {
+    background-color: black;
+    color: white;
+}
+
+input {
+	height: 20px;
+	padding-left: 5px;
+}
+
+.addInfo {
+	width: 200px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+/*	background-color: black;
+*/}
+
+.info {
+		
+ 	margin-top: 10px;
+ }
+
+ .addButton {
+
+    /*transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);*/
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.addButton:hover {
+    background-color: black;
+    color: white;
+}
+
+.data {
+	width: 500px;
+	height: 500px;
+	background-color: purple;
+ }
+
+.table {
+	background-color: black;
+	width: 300px;
+	height: 300px;
+}
+
+
+tr {
+
+	background-color: white;
+}
+
+.header {
+/*	background-color: pink;
+*/	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+td{
+	width: 100px;
+}
+
+h2 {
+	font-size: 40px;
+	display: inline-block;
+}
+
+
+.image {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-left: 10px;
+
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tables{
+  font-size: 20px;
+  margin-left: -50px;
+}
